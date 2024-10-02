@@ -1,6 +1,6 @@
 # LLMM
 Lenguajes de marcas de JSR
 ## Tema 1
-[ejercicio1](https://github.com/Jorge-SegoviaRite/LLMM_1DAW/blob/55d7dbee19efd38e942f1eb14ece2179ee6d1219/Tema1/ejercicio1)
+[ejercicio1](Tema1/jsr_Actividad1.html)
 [ejercicio2](Tema1/Actividad2.xml)
-[ejercicio3](https://github.com/Jorge-SegoviaRite/LLMM_1DAW/blob/55d7dbee19efd38e942f1eb14ece2179ee6d1219/Tema1/ejercicio3)
+[ejercicio3](Tema1/SVG.html)
