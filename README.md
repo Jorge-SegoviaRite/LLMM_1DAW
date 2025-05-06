@@ -62,13 +62,20 @@ Ejercicio | Descripcion
 Actividades XML 
 Ejercicio | Descripcion
 ----------|------------
-[ejercicio1](Tema4/Ejercicio1javascript.html) |  Simple questions.
-[ejercicio2](Tema4/Ejercicio1javascript.html) |  XML tree structures.
-[ejercicio3](Tema4/Ejercicio1javascript.html) |  XML structure.
-[ejercicio4](Tema4/Ejercicio1javascript.html) |  Mark up the following email message to identify its information content.
-[ejercicio5](Tema4/Ejercicio1javascript.html) |  XML file, CD information.
-[ejercicio6](Tema4/Ejercicio1javascript.html) |  XML: a letter template.
-[ejercicio7](Tema4/Ejercicio1javascript.html) |  The XML standard.
+[ejercicio1](Tema4/Ejercicio1xml.html) |  Simple questions.
+[ejercicio2](Tema4/Ejercicio2xml.html) |  XML tree structures.
+[ejercicio3](Tema4/Ejercicio3xml.html) |  XML structure.
+[ejercicio4](Tema4/Ejercicio4xml.html) |  Mark up the following email message to identify its information content.
+[ejercicio5](Tema4/Ejercicio5xml.html) |  XML file, CD information.
+[ejercicio6](Tema4/Ejercicio6xml.html) |  XML: a letter template.
+[ejercicio7](Tema4/Ejercicio7xml.html) |  The XML standard.
+
+Actividades XML DOM
+Ejercicio | Descripcion
+----------|------------
+[ejercicio1](Tema4/Ejercicio1DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
+[ejercicio1](Tema4/Ejercicio2DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
+[ejercicio1](Tema4/Ejercicio3DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
 
 
 
