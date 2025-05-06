@@ -59,7 +59,7 @@ Ejercicio | Descripcion
 [ejercicio9](Tema3/Ejercicio9javascript.html) |  Convert from Celsius to Fahrenheit.
 
 ## Tema 4 XML
-##Actividades XML 
+Actividades XML 
 Ejercicio | Descripcion
 ----------|------------
 [ejercicio1](Tema4/Ejercicio1javascript.html) |  Simple questions.
