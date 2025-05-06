@@ -74,8 +74,8 @@ Actividades XML DOM
 Ejercicio | Descripcion
 ----------|------------
 [ejercicio1](Tema4/Ejercicio1DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
-[ejercicio1](Tema4/Ejercicio2DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
-[ejercicio1](Tema4/Ejercicio3DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
+[ejercicio2](Tema4/Ejercicio2DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
+[ejercicio3](Tema4/Ejercicio3DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
 
 
 
