@@ -6,7 +6,7 @@ Lenguajes de marcas de JSR
 [ejercicio3](Tema1/SVG.html)
 
 ## Tema 1 HTML
-ejercicio | Descripcion
+Ejercicio | Descripcion
 ----------|------------
 [ejercicio1](Tema1/LMSGI_02_Actividad_1.html) | Crea una página con el texto facilitado e incluye las etiquetas necesarias.
 [ejercicio2](Tema1/LMSGI_02_Actividad2.html) | Crea una página html que incluya seis niveles de cabecera seguidas de un pequeño párrafo de texto.
@@ -31,7 +31,7 @@ ejercicio | Descripcion
 [ejercicio23](Tema1/Ejercicio23.html) | iFrame.
 
 ## Tema 2 CSS
-ejercicio | Descripcion
+Ejercicio | Descripcion
 ----------|------------
 [ejercicio1](Tema2/Ejercicio1CSS.html) | Text format.
 [ejercicio2](Tema2/Ejercicio2CSS.html) | CSS Layouts.
@@ -46,8 +46,31 @@ ejercicio | Descripcion
 [ejercicio11](Tema2/Ejercicio11CSS.html) | Image Gallery.
 [ejercicio12](Tema2/Ejercicio12CSS.html) | Responsive web design.
 ## Tema 3 JAVASCRIPT
-ejercicio | Descripcion
+Ejercicio | Descripcion
 ----------|------------
+[ejercicio1](Tema3/Ejercicio1javascript.html) |  Basics.
+[ejercicio2](Tema3/Ejercicio2javascript.html) |  Showing messages.
+[ejercicio3](Tema3/Ejercicio3javascript.html) |  Showing messages.
+[ejercicio4](Tema3/Ejercicio4javascript.html) |  Working with variables.
+[ejercicio5](Tema3/Ejercicio5javascript.html) |  Basics.
+[ejercicio6](Tema3/Ejercicio6javascript.html) |  Random Quotes.
+[ejercicio7](Tema3/Ejercicio7javascript.html) |  Image Slider.
+[ejercicio8](Tema3/Ejercicio8javascript.html) |  Calculator.
+[ejercicio9](Tema3/Ejercicio9javascript.html) |  Convert from Celsius to Fahrenheit.
+
 ## Tema 4 XML
-ejercicio | Descripcion
+Ejercicio | Descripcion
 ----------|------------
+Actividades XML |
+[ejercicio1](Tema4/Ejercicio1javascript.html) |  Simple questions.
+[ejercicio2](Tema4/Ejercicio1javascript.html) |  XML tree structures.
+[ejercicio3](Tema4/Ejercicio1javascript.html) |  XML structure.
+[ejercicio4](Tema4/Ejercicio1javascript.html) |  Mark up the following email message to identify its information content.
+[ejercicio5](Tema4/Ejercicio1javascript.html) |  XML file, CD information.
+[ejercicio6](Tema4/Ejercicio1javascript.html) |  XML: a letter template.
+[ejercicio7](Tema4/Ejercicio1javascript.html) |  The XML standard.
+
+
+
+
+
