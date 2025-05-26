@@ -1,0 +1,84 @@
+<style>
+body {
+  background-image: url("img_tree.png");
+  background-repeat: no-repeat;
+  background-position: right top;
+  margin-right: 200px;
+  background-attachment: fixed;
+}
+</style>
+Optional Improvements:
+Add background-size: cover; or contain; if the image doesn’t scale well.
+
+Ensure the image path is correct. "img_tree.png" should be in the same folder or appropriately referenced.
+
+Let me know if you want to add multiple background images or create a full-page background effect!
+
+
+
+
+
+
+
+Tú dijiste:
+Modifica para que muestre la imagen repetida en el eje y. Además evita que haga scroll. Modifica también la posición de la imagen para que aparezca a la izquierda y el texto a la derecha. 
+
+
+ChatGPT Plus
+Para lograr lo que pides, se deben hacer las siguientes modificaciones en el CSS:
+
+Repetir la imagen solo en el eje Y: Usamos background-repeat: repeat-y;.
+
+Evitar que la imagen se desplace al hacer scroll: Usamos background-attachment: fixed;.
+
+Posicionar la imagen a la izquierda y el texto a la derecha: Usamos background-position: left top; y agregamos margen izquierdo al contenido para que no se sobreponga a la imagen.
+
+Aquí tienes el código modificado:
+
+html
+Copiar
+Editar
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url("img_tree.png");
+  background-repeat: repeat-y;
+  background-position: left top;
+  background-attachment: fixed;
+  margin-left: 200px; /* Deja espacio para que el texto no tape la imagen */
+  padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h1>The background-attachment Property</h1>
+
+<p>The background-attachment property specifies whether the background image should scroll or be fixed (will not scroll with the rest of the page).</p>
+
+<p><strong>Tip:</strong> If you do not see any scrollbars, try to resize the browser window.</p>
+
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+<p>The background-image does not scroll. Try to scroll down the page.</p>
+
+</body>
+</html>
