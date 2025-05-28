@@ -22,12 +22,12 @@ Ejercicio | Descripcion
 [ejercicio14](Tema1/Ejercicio14.html) | margin y padding.
 [ejercicio15](Tema1/Ejercicio15.html) | Tablas.
 [ejercicio16](Tema1/Ejercicio16.html) | Tablas-Horario.
-[ejercicio17](Tema1/Ejercicio17.html) | Tablas-Display the following table.
-[ejercicio18](Tema1/Ejercicio18.html) | Tablas-Display the following table.
-[ejercicio19](Tema1/Ejercicio19.html) | Imagenes-Muestra una imagen con posicionamiento flotante a izquierda junto a un párrafo con texto.
-[ejercicio20](Tema1/Ejercicio20.html) | Añade los siguientes ítems.
-[ejercicio21](Tema1/Ejercicio21.html) | Imagenes-Crea un grupo de imágenes en miniatura.
-[ejercicio22](Tema1/Ejercicio22.html) | Imagenes-Crea un favicon e inclúyelo en una página web.
+[ejercicio17](Tema1/Ejercicio17/Ejercicio17.html) | Tablas-Display the following table.
+[ejercicio18](Tema1/Ejercicio18/Index.html) | Tablas-Display the following table.
+[ejercicio19](Tema1/Ejercicio19/Index.html) | Imagenes-Muestra una imagen con posicionamiento flotante a izquierda junto a un párrafo con texto.
+[ejercicio20](Tema1/Ejercicio20/Index.html) | Añade los siguientes ítems.
+[ejercicio21](Tema1/Ejercicio21/Index.html) | Imagenes-Crea un grupo de imágenes en miniatura.
+[ejercicio22](Tema1/Ejercicio22/Index.html) | Imagenes-Crea un favicon e inclúyelo en una página web.
 [ejercicio23](Tema1/Ejercicio23.html) | iFrame.
 
 ## Tema 2 CSS
