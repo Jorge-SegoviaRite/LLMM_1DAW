@@ -34,29 +34,29 @@ Ejercicio | Descripcion
 Ejercicio | Descripcion
 ----------|------------
 [ejercicio1](Tema2/Ejercicio1CSS.html) | Text format.
-[ejercicio2](Tema2/Ejercicio2CSS.html) | CSS Layouts.
-[ejercicio3](Tema2/Ejercicio3CSS.html) | Background.
+[ejercicio2](Tema2/Ejercicio2CSS/Index.html) | CSS Layouts.
+[ejercicio3](Tema2/Ejercicio3CSS/Index.html) | Background.
 [ejercicio4](Tema2/Ejercicio4CSS.html) | Menú vertical vs horizontal.
 [ejercicio5](Tema2/Ejercicio5CSS.html) | Styling Tables.
 [ejercicio6](Tema2/Ejercicio6CSS.html) | Styling Tables.
-[ejercicio7](Tema2/Ejercicio7CSS.html) | Float property.
+[ejercicio7](Tema2/Ejercicio10CSS.html) | Float property.
 [ejercicio8](Tema2/Ejercicio8CSS.html) | Absolute position.
 [ejercicio9](Tema2/Ejercicio9CSS.html) | Absolute position.
-[ejercicio10](Tema2/Ejercici101CSS.html) | Flexbox.
-[ejercicio11](Tema2/Ejercicio11CSS.html) | Image Gallery.
+[ejercicio10](Tema2/Ejercicio10CSS.html) | Flexbox.
+[ejercicio11](Tema2/Ejercicio11CSS/Ejercicio11.html) | Image Gallery.
 [ejercicio12](Tema2/Ejercicio12CSS.html) | Responsive web design.
 ## Tema 3 JAVASCRIPT
 Ejercicio | Descripcion
 ----------|------------
-[ejercicio1](Tema3/Ejercicio1javascript.html) |  Basics.
-[ejercicio2](Tema3/Ejercicio2javascript.html) |  Showing messages.
-[ejercicio3](Tema3/Ejercicio3javascript.html) |  Showing messages.
-[ejercicio4](Tema3/Ejercicio4javascript.html) |  Working with variables.
-[ejercicio5](Tema3/Ejercicio5javascript.html) |  Basics.
-[ejercicio6](Tema3/Ejercicio6javascript.html) |  Random Quotes.
-[ejercicio7](Tema3/Ejercicio7javascript.html) |  Image Slider.
-[ejercicio8](Tema3/Ejercicio8javascript.html) |  Calculator.
-[ejercicio9](Tema3/Ejercicio9javascript.html) |  Convert from Celsius to Fahrenheit.
+[ejercicio1](Tema3/Ejercicio1javascript) |  Basics.
+[ejercicio2](Tema3/Ejercicio2javascript) |  Showing messages.
+[ejercicio3](Tema3/Ejercicio3javascript) |  Showing messages.
+[ejercicio4](Tema3/Ejercicio4javascript) |  Working with variables.
+[ejercicio5](Tema3/Ejercicio7javascript/Ejercicio7.html) |  Basics.
+[ejercicio6](Tema3/Ejercicio8javascript.html) |  Random Quotes.
+[ejercicio7](Tema3/Ejercicio9javascript.html) |  Image Slider.
+[ejercicio8](Tema3/Ejercicio10javascript.html) |  Calculator.
+[ejercicio9](Tema2/Ejercicio12CSS.html) |  Convert from Celsius to Fahrenheit.
 
 ## Tema 4 XML
 Actividades XML 
