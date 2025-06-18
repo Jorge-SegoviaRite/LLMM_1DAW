@@ -88,6 +88,7 @@ Ejercicio | Descripcion
 
 Actividades XML DOM
 Proyecto Tercer trimestre| Descripcion
+----------|------------
 [documentación del proyecto](Tema4/Proyecto) | Enlace a la documentación del proyecto
 [visual del proyecto](https://685288bc33ae8b3b1457802b--teal-scone-5dcc9c.netlify.app/) | Enace al proyecto ejecutandose
 
