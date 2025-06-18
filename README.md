@@ -86,7 +86,7 @@ Ejercicio | Descripcion
 [ejercicio2](Tema4/DOM/ejercicio2DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
 [ejercicio3](Tema4/DOM/ejercicio3DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
 
-Proyecto Tercer trimestre|
+Proyecto Tercer trimestre
 Enlaces | Descripcion
 ----------|------------
 [documentación del proyecto](Tema4/Proyecto) | Enlace a la documentación del proyecto
