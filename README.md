@@ -86,6 +86,11 @@ Ejercicio | Descripcion
 [ejercicio2](Tema4/DOM/ejercicio2DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
 [ejercicio3](Tema4/DOM/ejercicio3DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
 
+Actividades XML DOM
+Proyecto Tercer trimestre| 
+[documentación del proyecto](Tema4/Proyecto) |
+[visual del proyecto](enlace)
+
 
 
 
