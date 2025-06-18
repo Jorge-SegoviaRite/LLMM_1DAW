@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web 4 you</title>
+  <link rel="icon" href="logo.ico" type="image/x-icon" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1f1f27;
+      color: white;
+    }
+
+    body::before {
+      content: "";
+      display: block;
+      height: 70px;
+    }
+
+    header {
+      background-color: #fff;
+      color: black;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      padding: 6px 10px;
+    }
+
+    .btn {
+      background-color: #00AEEF;
+      color: white;
+      padding: 10px 20px;
+      border-radius: 25px;
+      font-weight: bold;
+      margin-top: 30px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .main-content-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      align-items: flex-start;
+      padding: 60px 20px;
+      gap: 30px;
+    }
+
+    .main-content {
+      max-width: 400px;
+      text-align: center;
+    }
+
+    .main-content h1 {
+      font-size: 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 15px;
+      margin-bottom: 0;
+    }
+
+    .main-content h1 img {
+      width: 50px;
+      height: 50px;
+      object-fit: contain;
+    }
+
+    .main-content p {
+      font-size: 20px;
+      color: #f9f58a;
+      margin-top: 10px;
+    }
+
+    .code-example {
+      background-color: #e6e6e6;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 400px;
+      min-width: 280px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .code-example pre {
+      background-color: #f8f8f8;
+      padding: 15px;
+      border-left: 4px solid #00AEEF;
+      overflow-x: auto;
+      font-family: Consolas, monospace;
+      font-size: 14px;
+      white-space: pre-wrap;
+    }
+
+    .separator {
+      border: 0;
+      height: 1px;
+      background-color: #444;
+      margin: 40px auto;
+      width: 80%;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="index.html"><img src="logo.png" alt="Logo" style="height: 40px;"></a>
+  <nav>
+    <a href="html.html">HTML</a>
+    <a href="css.html">CSS</a>
+    <a href="svg.html">SVG</a>
+  </nav>
+  <a class="btn" href="html.html">Empezar curso</a>
+</header>
+
+<!-- Parte de html -->
+
+<div class="main-content-container">
+  <div class="main-content">
+    <h1><img src="htmlLogo.png" alt="HTML Logo" /> HTML</h1>
+    <p>HTML is the fundamental markup language for creating content on the web.</p>
+    <a class="btn" href="html.html">Try it Yourself</a> <br>
+    <a class="btn" href="https://www.youtube.com/watch?v=mNbnV3aN3KA" target="_blank">Video Tutorial esp</a><br>
+    <a class="btn" href="https://www.youtube.com/watch?v=vY2xUc4TVmY" target="_blank">Tutorial video eng</a>
+  </div>
+  <div class="code-example">
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+  &lt;head&gt;
+    &lt;title&gt;HTML Tutorial&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+
+    &lt;h1&gt;This is a heading&lt;/h1&gt;
+    &lt;p&gt;This is a paragraph.&lt;/p&gt;
+
+  &lt;/body&gt;
+&lt;/html&gt;</code></pre>
+  </div>
+</div>
+
+
+<!-- Parte de css -->
+<hr class="separator">
+
+<div class="main-content-container">
+  <div class="main-content">
+    <h1><img src="cssLogo.png" alt="CSS Logo" /> CSS</h1>
+    <p>CSS is a web design language used to define the visual presentation of web pages.</p>
+    <a class="btn" href="css.html">Try it Yourself</a><br>
+    <a class="btn" href="https://www.youtube.com/watch?v=3yM5uXp-T_0&t=4s" target="_blank">Video Tutorial esp</a><br>
+    <a class="btn" href="https://www.youtube.com/watch?v=1PnVor36_40" target="_blank">Tutorial video eng</a>
+  </div>
+  <div class="code-example">
+    <pre><code>body {
+  background-color: lightblue;
+}
+
+h1 {
+  color: navy;
+  margin-left: 20px;
+}</code></pre>
+  </div>
+</div>
+
+<hr class="separator">
+
+
+<!-- Parte de SVG -->
+
+
+<div class="main-content-container">
+  <div class="main-content">
+    <h1><img src="svgLogo.png" alt="SVG Logo" /> SVG</h1>
+    <p>SVG is a markup language for describing two-dimensional graphics using XML.</p>
+    <a class="btn" href="svg.html">Try it Yourself</a><br>
+    <a class="btn" href="https://www.youtube.com/watch?v=tiRhwoobANE&t=273s" target="_blank">Video Tutorial esp</a><br>
+    <a class="btn" href="https://www.youtube.com/watch?v=hZYaSGUbMds" target="_blank">Tutorial video eng</a>
+  </div>
+  <div class="code-example">
+    <pre><code>&lt;svg width="100" height="100"&gt;
+  &lt;circle cx="50" cy="50" r="40" stroke="green"
+          stroke-width="4" fill="yellow" /&gt;
+&lt;/svg&gt;</code></pre>
+  </div>
+</div>
+
+</body>
+</html>

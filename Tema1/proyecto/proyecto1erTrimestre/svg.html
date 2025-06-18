@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web 4 you</title>
+  <link rel="icon" href="logo.ico" type="image/x-icon" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1f1f27;
+      color: white;
+      padding-top: 60px; /* espacio para que el contenido no quede oculto debajo del header fijo */
+    }
+
+    header {
+      background-color: #fff;
+      color: black;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      position: fixed; /* Hace que el header quede fijo */
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px; /* Altura fija para el header */
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .btn {
+      background-color: #00AEEF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 0; /* Se quita el margen superior porque el header es fijo */
+    }
+
+    .main-content-container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1 img {
+      height: 32px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    h1 {
+      font-size: 36px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    ul {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .code-example {
+      background-color: #e6e6e6;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .code-example pre {
+      background-color: #f8f8f8;
+      padding: 15px;
+      border-left: 4px solid #00AEEF;
+      overflow-x: auto;
+      font-family: Consolas, monospace;
+      font-size: 14px;
+      white-space: pre-wrap;
+    }
+
+    .explanation {
+      margin-top: 40px;
+    }
+
+    .explanation ul {
+      color: #e0e0e0;
+      font-size: 16px;
+    }
+
+    .explanation code {
+      background-color: #333;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #00AEEF;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      background-color: white;
+      color: black;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    .structure-visual {
+      background-color: #e1e3e6;
+      padding: 20px;
+      border: 1px solid #999;
+      margin-top: 40px;
+      font-family: Consolas, monospace;
+      color: black;
+    }
+
+    .structure-visual svg {
+      display: block;
+      margin-top: 15px;
+      background-color: white;
+      border: 1px solid #888;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <a href="index.html"><img src="logo.png" alt="Logo" style="height: 40px;"></a>
+  </div>
+  <nav>
+    <a href="html.html">HTML</a>
+    <a href="css.html">CSS</a>
+    <a href="svg.html">SVG</a>
+  </nav>
+  <a class="btn" download="tutorial.pdf" href="tutorial_svg.pdf">Descargar Tutorial</a>
+</header>
+
+<section class="main-content-container">
+  <h1>
+    <img src="svgLogo.png" alt="SVG Logo" />
+    ¿Qué es SVG?
+  </h1>
+
+  <ul>
+    <li>SVG significa Gráficos Vectoriales Escalables</li>
+    <li>Es un formato basado en XML para describir gráficos en dos dimensiones</li>
+    <li>SVG se puede usar para crear formas, texto y animaciones</li>
+    <li>Puede escalarse sin perder calidad, ideal para pantallas de alta resolución</li>
+    <li>Se puede incluir directamente en HTML</li>
+  </ul>
+
+  <h2>Un ejemplo básico de SVG</h2>
+
+  <div class="code-example">
+    <h3>Ejemplo:</h3>
+    <pre><code>&lt;svg width="100" height="100"&gt;
+  &lt;circle cx="50" cy="50" r="40" stroke="black"
+          stroke-width="3" fill="red" /&gt;
+&lt;/svg&gt;</code></pre>
+  </div>
+
+  <div class="explanation">
+    <h3>Explicación del ejemplo:</h3>
+    <ul>
+      <li><code>&lt;svg&gt;</code> inicia el contenedor de SVG</li>
+      <li><code>width</code> y <code>height</code> definen el tamaño del área</li>
+      <li><code>&lt;circle&gt;</code> dibuja un círculo</li>
+      <li><code>cx</code> y <code>cy</code> son las coordenadas del centro</li>
+      <li><code>r</code> es el radio</li>
+      <li><code>stroke</code> es el color del borde</li>
+      <li><code>fill</code> es el color del relleno</li>
+    </ul>
+  </div>
+
+  <h2>Elementos comunes en SVG</h2>
+  <table>
+    <tr>
+      <th>Elemento</th>
+      <th>Descripción</th>
+      <th>Ejemplo</th>
+    </tr>
+    <tr>
+      <td><code>&lt;rect&gt;</code></td>
+      <td>Rectángulo</td>
+      <td><code>&lt;rect width="80" height="40" /&gt;</code></td>
+    </tr>
+    <tr>
+      <td><code>&lt;circle&gt;</code></td>
+      <td>Círculo</td>
+      <td><code>&lt;circle cx="50" cy="50" r="40" /&gt;</code></td>
+    </tr>
+    <tr>
+      <td><code>&lt;text&gt;</code></td>
+      <td>Texto</td>
+      <td><code>&lt;text x="10" y="20"&gt;Hola&lt;/text&gt;</code></td>
+    </tr>
+  </table>
+
+  <h2>Visualización de estructura SVG</h2>
+  <div class="structure-visual">
+    &lt;svg width="300" height="120"&gt;<br/>
+    &nbsp;&nbsp;&lt;rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" /&gt;<br/>
+    &nbsp;&nbsp;&lt;text x="150" y="55" fill="white" text-anchor="middle"&gt;Texto SVG&lt;/text&gt;<br/>
+    &lt;/svg&gt;
+
+    <svg width="300" height="120">
+      <rect width="300" height="100" style="fill:rgb(0,0,255);stroke-width:3;stroke:rgb(0,0,0)" />
+      <text x="150" y="55" fill="white" text-anchor="middle" font-size="20px" dominant-baseline="middle">Texto SVG</text>
+    </svg>
+  </div>
+</section>
+
+</body>
+</html>

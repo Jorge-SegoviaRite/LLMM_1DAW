@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Web 4 you</title>
+  <link rel="icon" href="logo.ico" type="image/x-icon" />
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #1f1f27;
+      color: white;
+      padding-top: 60px; /* espacio para que no quede debajo del header fijo */
+    }
+
+    header {
+      background-color: #fff;
+      color: black;
+      padding: 10px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 60px; /* fijo, para dar espacio en body */
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 1000;
+    }
+
+    nav {
+      display: flex;
+      gap: 15px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+    }
+
+    .btn {
+      background-color: #00AEEF;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      font-weight: bold;
+      margin-top: 0; /* ya no hace falta el margen top */
+    }
+
+    .main-content-container {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h1 img {
+      height: 32px;
+      vertical-align: middle;
+      margin-right: 10px;
+    }
+
+    h1 {
+      font-size: 36px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    ul {
+      font-size: 18px;
+      line-height: 1.7;
+    }
+
+    .code-example {
+      background-color: #e6e6e6;
+      color: black;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+
+    .code-example pre {
+      background-color: #f8f8f8;
+      padding: 15px;
+      border-left: 4px solid #00AEEF;
+      overflow-x: auto;
+      font-family: Consolas, monospace;
+      font-size: 14px;
+      white-space: pre-wrap;
+    }
+
+    .explanation {
+      margin-top: 40px;
+    }
+
+    .explanation ul {
+      color: #e0e0e0;
+      font-size: 16px;
+    }
+
+    .explanation code {
+      background-color: #333;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: #00AEEF;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 30px;
+      background-color: white;
+      color: black;
+    }
+
+    th, td {
+      padding: 10px;
+      border: 1px solid #ccc;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f0f0f0;
+    }
+
+    .structure-visual {
+      background-color: #e1e3e6;
+      padding: 20px;
+      border: 1px solid #999;
+      margin-top: 40px;
+      font-family: Consolas, monospace;
+      color: black;
+    }
+
+    .structure-visual .box {
+      border: 1px solid #888;
+      background-color: white;
+      padding: 15px;
+      margin: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo">
+    <a href="index.html"><img src="logo.png" alt="Logo" style="height: 40px;"></a>
+  </div>
+  <nav>
+    <a href="html.html">HTML</a>
+    <a href="css.html">CSS</a>
+    <a href="svg.html">SVG</a>
+  </nav>
+  <a class="btn" download="tutorial.pdf" href="tutorial_css.pdf">Descargar Tutorial</a>
+</header>
+
+<section class="main-content-container">
+  <h1>
+    <img src="svgLogo.png" alt="SVG Logo" />
+    ¿Qué es SVG?
+  </h1>
+
+  <ul>
+    <li>SVG significa Gráficos Vectoriales Escalables (Scalable Vector Graphics)</li>
+    <li>SVG es un formato para describir imágenes vectoriales en XML</li>
+    <li>Permite crear gráficos que se pueden escalar sin perder calidad</li>
+    <li>Se puede usar para ilustraciones, iconos, gráficos y animaciones en la web</li>
+    <li>Los gráficos SVG pueden ser estilizados con CSS y manipulados con JavaScript</li>
+  </ul>
+
+  <h2>Un ejemplo básico de SVG</h2>
+
+  <div class="code-example">
+    <h3>Ejemplo:</h3>
+    <pre><code>&lt;svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"&gt;
+  &lt;circle cx="50" cy="50" r="40" stroke="green" stroke-width="4" fill="yellow" /&gt;
+&lt;/svg&gt;</code></pre>
+  </div>
+
+  <div class="explanation">
+    <h3>Explicación del ejemplo:</h3>
+    <ul>
+      <li><code>&lt;svg&gt;</code> es el contenedor del gráfico SVG</li>
+      <li><code>width</code> y <code>height</code> definen el tamaño del lienzo</li>
+      <li><code>&lt;circle&gt;</code> crea un círculo</li>
+      <li><code>cx</code> y <code>cy</code> son las coordenadas del centro del círculo</li>
+      <li><code>r</code> es el radio del círculo</li>
+      <li><code>stroke</code> define el color del borde</li>
+      <li><code>stroke-width</code> define el grosor del borde</li>
+      <li><code>fill</code> define el color de relleno</li>
+    </ul>
+  </div>
+
+  <h2>Ejemplos de atributos SVG</h2>
+  <table>
+    <tr>
+      <th>Atributo</th>
+      <th>Descripción</th>
+      <th>Ejemplo</th>
+    </tr>
+    <tr>
+      <td><code>fill</code></td>
+      <td>Color de relleno de la figura</td>
+      <td><code>fill="red"</code></td>
+    </tr>
+    <tr>
+      <td><code>stroke</code></td>
+      <td>Color del borde</td>
+      <td><code>stroke="blue"</code></td>
+    </tr>
+    <tr>
+      <td><code>stroke-width</code></td>
+      <td>Grosor del borde</td>
+      <td><code>stroke-width="3"</code></td>
+    </tr>
+  </table>
+
+  <h2>Estructura visual de SVG en una página</h2>
+  <div class="structure-visual">
+    &lt;html&gt;<br/>
+    &nbsp;&nbsp;&lt;body&gt;
+    <div class="box">
+      &lt;svg width="200" height="200" xmlns="http://www.w3.org/2000/svg"&gt;<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;rect width="100" height="100" fill="blue" /&gt;<br/>
+      &nbsp;&nbsp;&nbsp;&nbsp;&lt;circle cx="150" cy="150" r="40" fill="red" /&gt;<br/>
+      &nbsp;&nbsp;&lt;/svg&gt;
+    </div>
+    &nbsp;&nbsp;&lt;/body&gt;<br/>
+    &lt;/html&gt;
+  </div>
+</section>
+
+</body>
+</html>
