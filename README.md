@@ -86,6 +86,12 @@ Ejercicio | Descripcion
 [ejercicio2](Tema4/DOM/ejercicio2DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
 [ejercicio3](Tema4/DOM/ejercicio3DOM.html) |  Escribe el código necesario para obtener los siguientes datos.
 
+Proyecto Primer trimestre
+Enlaces | Descripcion
+----------|------------
+[documentación del proyecto](Tema1/proyecto/proyecto1erTrimestre) | Enlace a la documentación del proyecto
+[visual del proyecto](https://68530b66d86235878760ef84--funny-biscochitos-c814e6.netlify.app/) | Enace al proyecto ejecutandose
+
 Proyecto Tercer trimestre
 Enlaces | Descripcion
 ----------|------------
